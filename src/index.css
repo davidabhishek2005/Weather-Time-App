@@ -5,6 +5,7 @@
   box-sizing : border-box;
   margin:0;
   padding: 0;
+  overflow:hidden;
 }
 
 body {
@@ -105,7 +106,7 @@ h1{
 
 
 .DateTime{
-  width: 700px;
+  width: 80%;
   border-radius: 12px;
   background-color: rgba(255,255,255,0.21);
   margin-top:1.3rem;
@@ -113,6 +114,12 @@ h1{
   margin-right: auto;
   text-align:center;
   display : flex;
+  gap:1rem;
+  flex-wrap: wrap;
   padding :1rem;
   justify-content: space-around;
+}
+
+@media screen  {
+  
 }
